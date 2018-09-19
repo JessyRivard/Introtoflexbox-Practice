@@ -7,6 +7,8 @@
     color: white;
     background-color: blue;
     padding: 20px 0;
+    display: flex;
+    justify-content: center;
 }
 .menu {
     border: 1px solid white;
