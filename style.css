@@ -29,3 +29,24 @@
 .today {
     margin-left: 10px;
 }
+.header-container {
+    color: black;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer {
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
