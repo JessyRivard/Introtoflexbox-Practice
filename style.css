@@ -69,10 +69,17 @@
     order: -1;
 }
 .footer {
-    background-color: blue;
-    color: white;
     display: flex;
-    justify-content: center;
-    height: 50px;
-    align-items: center;
+    justify-content: space-between;
+}
+.footer-item {
+    border: 1px solid white;
+    background-color: lightblue;
+    height: 200px;
+    flex: 1;
+}
+.footer-one, .footer-three {
+    background-color: lightgrey;
+    flex: initial;
+    width: 300px;
 }
